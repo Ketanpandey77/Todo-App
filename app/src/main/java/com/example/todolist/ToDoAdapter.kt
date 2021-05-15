@@ -20,7 +20,6 @@ class ToDoAdapter(val list: List<ToDoModel>):RecyclerView.Adapter<ToDoAdapter.To
     override fun getItemCount() =list.size
 
     override fun onBindViewHolder(holder: ToDoViewHolder, position: Int) {
-
         holder.bind(list[position])
     }
 
